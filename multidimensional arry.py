@@ -1,5 +1,5 @@
 multi_array = ['a', 'b', ['c', 'd', ['e']]]
-picked_string = 'c'
+picked_string = 'e'
 
 def find_path(item, target, path=None):
     if path is None:
