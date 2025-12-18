@@ -1,7 +1,7 @@
 array = [2,5,25,55,100,900,1001]
 low = 0
 high = len(array) - 1
-number = 900
+number = 100
 iterations = 0
 
 while low <= high:
@@ -17,3 +17,5 @@ while low <= high:
     else:
         high = mid - 1
 
+if high == 0:
+    print("Number isn't in the array")
